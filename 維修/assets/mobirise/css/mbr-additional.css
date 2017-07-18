@@ -515,6 +515,13 @@ h6,
 #features2-b .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
+#testimonials4-t .mbr-section-title {
+  font-size: 60px;
+  color: #e25041;
+}
+#testimonials4-t .card-block P {
+  text-align: center;
+}
 #menu-e .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -621,4 +628,11 @@ h6,
 }
 #features2-s .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
+}
+#testimonials4-u .mbr-section-title {
+  font-size: 60px;
+  color: #e25041;
+}
+#testimonials4-u .card-block P {
+  text-align: center;
 }
