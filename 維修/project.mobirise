@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,8 +22,11 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 30,
+    "uniqCompNum": 44,
     "versionPublish": "3.12.1",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -113,10 +116,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/autodraw-2017-6-10-20-45-78x128.png",
+              "src": "@PROJECT_PATH@/assets/images/autodraw%202017-6-10%2020-45-78x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -126,7 +129,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">機佬---------<br>最專業的手機服務(The most professional mobile phone service)</a>",
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">機佬---------<br>最專業的維修服務</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">介紹</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">手機品牌</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features7-3\">IPhone 7(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-4\">IPhone 6(p)/6s(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-8\">IPhone 5/5s/se</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-a\">Iphone 4/4s</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\">聯絡我們<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page1.html\">English</a></li>"
         },
         {
@@ -1181,9 +1184,18 @@
             "Theme"
           ],
           "_name": "testimonials4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#e25041"
+            },
+            ".card-block P": {
+              "text-align": "center"
+            }
+          },
           "testimonial": [
             {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p>硬<span style=\"font-size: 1.125rem; line-height: 2;\">體</span><span style=\"font-size: 1.125rem; line-height: 2;\">服</span><span style=\"font-size: 1.125rem; line-height: 2;\">務</span></p><p>1.硬體零組件安裝:200/件</p><p>2.驅動程式安裝:200/台</p><p>費用:400</p><p><br></p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -1193,11 +1205,11 @@
                   "active": true
                 }
               },
-              "authorName": "Abanoub S.",
+              "authorName": "",
               "authorBio": "User"
             },
             {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "text": "<p>軟<span style=\"font-size: 1.125rem; line-height: 2;\">體</span><span style=\"font-size: 1.125rem; line-height: 2;\">服</span><span style=\"font-size: 1.125rem; line-height: 2;\">務</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">1.一般軟體安裝:200/台</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">2.作業系統安裝:800/台</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">3.系統重灌組合:1000/台</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">4.系統備份還原:500/台</span></p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -1207,44 +1219,30 @@
                   "active": true
                 }
               },
-              "authorName": "Suffian A.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Jhollman C.",
+              "authorName": "",
               "authorBio": "User"
             }
           ],
           "_anchor": "testimonials4-t",
           "_params": {
-            "count": 3,
+            "count": "2",
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": false,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
-          "title": "WHAT OUR FANTASTIC USERS SAY",
+          "title": "電腦維修服務",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
@@ -1393,7 +1391,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">機佬---------<br>最專業的手機服務(The most professional mobile phone service)</a>",
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">機佬---------<br>最專業的維修服務</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">介紹</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">手機品牌</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features7-3\">IPhone 7(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-4\">IPhone 6(p)/6s(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-8\">IPhone 5/5s/se</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-a\">Iphone 4/4s</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\">聯絡我們<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page1.html\">English</a></li>"
         },
         {
@@ -1435,7 +1433,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x133335.jpg",
+            "bgImage": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-2000x1333.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1746,7 +1744,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-5-600x40027.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-5-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1762,7 +1760,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x40028.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-4-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1778,7 +1776,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-3-600x40029.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-3-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1794,7 +1792,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x40030.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-2-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1993,7 +1991,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x42231.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x422.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2009,7 +2007,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x36132.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x361.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2025,7 +2023,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x40033.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2041,7 +2039,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40034.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2240,7 +2238,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x422-1.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x422_1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2256,7 +2254,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x361-1.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x361_1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2272,7 +2270,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x400-1.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x400_1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2288,7 +2286,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400-1.jpg",
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-600x400_1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2448,11 +2446,1345 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
+          "_inherit": "testimonials2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#e25041"
+            },
+            ".card-block P": {
+              "text-align": "center"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>Hardware service</p><p><br></p><p>1. Hardware component installation: 200 / pieces</p><p><br></p><p>2. Driver installation: 200 / one computer</p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>Software services</p><p>1. General software installation: 200 / one computer</p><p><br></p><p>2. Operating system installation: 800 / one computer</p><p><br></p><p>3. System re-irrigation combination: 1000 / one computer</p><p><br></p><p>4. System backup restore: 500 / one computer</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-u",
+          "_params": {
+            "count": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "Computer repair service",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts4",
           "_anchor": "contacts4-c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<strong>Address</strong><br>台北工作室<br>Taipei studio:<br>台北市大安區忠孝東路三段6號<br>No.5, Sec. 3, Zhongxiao E. Rd., Da’an Dist., Taipei City 106, Taiwan&nbsp;<br>新竹工作室<br>Hsin Chu &nbsp;studio:<br>新竹縣竹北市新民街77號<br>No.77, Xinmin St., Zhubei City, Hsinchu County 302, Taiwan&nbsp;<br>台中工作室<br>Taichung studio:<br>台中市文心南十路211號<br>No.211, Wenxin S. 10th Rd., South Dist., Taichung City 402, Taiwan&nbsp;<br><br>\n<strong>Contacts</strong><br><br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "",
+          "form": {
+            "title": "MESSAGE",
+            "action": "madhead850107@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "type Line ID or email to contac us if we don't answer you*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Web Site Creator Title",
+        "meta_descr": "Web Site Creator Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-v",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/autodraw-2017-6-10-20-45-78x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">機佬---------<br>最專業的維修服務</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">介紹</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">手機品牌</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features7-3\">IPhone 7(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-4\">IPhone 6(p)/6s(p)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-8\">IPhone 5/5s/se</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-a\">Iphone 4/4s</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#bottom\" aria-expanded=\"false\">聯絡我們<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page1.html\">English</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-w",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead FONT": {
+              "color": "#eb6b56"
+            },
+            ".mbr-section-title": {
+              "font-size": "80px",
+              "text-align": "center"
+            },
+            ".mbr-section-lead": {
+              "color": "#b8312f"
+            }
+          },
+          "_anchor": "header1-x",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-2000x1333.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "&nbsp;GL &nbsp; &nbsp;&nbsp;",
+          "text": "Replacement of parts for all types of mobile phones<br>Like a liquid crystal screen, battery, HOME, lens ...<br>To provide low-cost and fast service quality<br>Want to repair the customer please contact us below will have a service staff for your explanation<br>Provide instant messages<font color=\"#000000\"><br></font><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#contacts4-c\" data-toolbar=\"-mbrBtnMove\">connect &nbsp;us</a> "
+        },
+        {
+          "_inherit": "features3",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-y",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "IPhone 7(p)",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Replacement items:<br>battery<br>HOME return button cable (with outer fingerprint identification button)<br>Charging hole failure<br>Screen overall<br>Camera front and rear lens<br>Listeners&nbsp;<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#features7-3\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">價格(price)</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "name": "mobile",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title2": "IPhone 6(p)/6s(p)",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Replacement items:<br>battery<br>HOME return button cable (with outer fingerprint identification button)<br>Screen overall<br>Camera front lens<br>Vibrator failure<br>Bell Buzzer Repair<br>POWER start button<br>Charging hole, audio source, MIC fault<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#features1-4\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">價格(price)</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "touch",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title3": "IPhone 5/5s/5c/se",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Replacement items:<br>battery<br>HOME return button cable (with outer fingerprint identification button)<br>Screen overall<br>Camera front lens<br>Vibrator motor vibrator<br>&nbsp;Bell Buzzer Repair<br>POWER start button<br>Charging hole, audio source, MIC fault<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#features1-8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">價格(price)</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title4": "Iphone 4/4s",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Replacement items:<br>battery<br>HOME return button cable (with outer fingerprint identification button)<br>Screen overall<br>Camera front lens<br>Vibrator motor vibrator<br>&nbsp;Bell Buzzer Repair<br>POWER start button<br>Charging hole, audio source, MIC fault<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#features1-a\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">價格(price)</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features3",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            "H4": {
+              "text-align": "center",
+              "color": "#e25041"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-z",
+          "_params": {
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "5",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "tablet",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title1": "battery",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace &nbsp;I7(p)'s battery</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "apple",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title2": "Home,Charging hole failure<br>",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I7(p)'s home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1000</span><br>Charging hole failure<br><span style=\"font-size: 1rem; line-height: 1.5;\">price:880</span><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "touch",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title3": "Screen overall",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<br>Replace I7p's screen<br><span style=\"font-size: 1rem; line-height: 1.5;\">price:3500</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">change I7's screen</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:3000</span><br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "speed",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title4": "Camera front and rear lens",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I7(p)'s camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1300</span><br><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "megaphone",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "title5": "Listeners&nbsp;",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "<br>Replace I7(p)'s handset<br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1080</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I7's shandset</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:980</span><br>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-10",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-5-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "battery",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace  I6/6s(p)'s battery</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:600</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-4-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "HOME",
+          "subtitle2": "",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6s(p)'s home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:760</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6(p)'s home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-3-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Screen overall",
+          "subtitle3": "",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6/6p's screen</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1160/1540</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">change I6s/6sp's screen</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1840/2240</span><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-2-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Camera front and rear lens",
+          "subtitle4": "",
+          "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6s(p)'s camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:900</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6(p)'s camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:900</span><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features2-11",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "alert",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Vibrator failure",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6s(p),6p's Vibrator</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:650</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6's Vibrator</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:400</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "megaphone",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title2": "Bell Buzzer Repair",
+          "subtitle2": "",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6s(p),6p's speaker</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:900</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I6's speaker</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:800</span><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "success",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title3": "POWER",
+          "subtitle3": "",
+          "caption3": "iPhone6/6s(p)<br><span style=\"font-size: 1rem; line-height: 1.5;\">price:520</span><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "global",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title4": "Charging hole, audio source, MIC fault<br><br>",
+          "subtitle4": "<span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">Replace I6s(p)'s Charging hole, audio source, MIC fault</span><br><div><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">price:900</span><br></div><div><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">Replace I6,6p's Charging hole, audio source, MIC fault</span><br></div><div><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">price:800</span><br></div>",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-12",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x422.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "battery",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace  I5/5s/se/5c's battery</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x361.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "HOME",
+          "subtitle2": "",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace se's home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5s's home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5c's home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5's home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:400</span><br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Screen overall",
+          "subtitle3": "",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5/5s/5c/se's screen</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1060</span><br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Camera front and rear lens",
+          "subtitle4": "",
+          "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5s/se/5/5c's camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace Ise's camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:1600</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I5s/5's camera lens</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features2-13",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "wifi",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Vibrator failure",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace Ise/5/5s/5c's Vibrator</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:600</span><br><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "megaphone",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title2": "Bell Buzzer Repair",
+          "subtitle2": "",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace Ise/5/5s/5c's speaker</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:700</span><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "idea",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title3": "POWER",
+          "subtitle3": "",
+          "caption3": "iphonese/5/5s/5c<br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "linkInNewWindow": false,
+              "name": "global",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title4": "Charging hole, audio source, MIC fault<br><br>",
+          "subtitle4": "<span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">Replace Ise/5/5s/5's Charging hole, audio source, MIC fault</span><br><div><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">price:600</span><br></div><div><br></div>",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-14",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x422_1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "battery",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Replace  I4/4s's battery</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:600</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x361_1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "HOME",
+          "subtitle2": "",
+          "caption2": "<br><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I4/4s's home buttom</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:600</span><br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-600x400_1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Screen overall",
+          "subtitle3": "",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I4/4s's screen</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:900</span><br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-600x400_1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Camera front and rear lens",
+          "subtitle4": "",
+          "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I4/4s's camera lens</span><br><br>price:700<br><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features2-15",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title1": "Vibrator failure",
+          "subtitle1": "",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I4/4s's Vibrator</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:400</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "mobile",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title2": "Bell Buzzer Repair",
+          "subtitle2": "",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1rem; line-height: 1.5;\">Replace I4/4s's speaker</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "pencil",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title3": "POWER",
+          "subtitle3": "",
+          "caption3": "<br><span style=\"font-size: 1rem; line-height: 1.5;\">iphone4/4s</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">price:500</span><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title4": "Charging hole, audio source, MIC fault<br>",
+          "subtitle4": "<span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\"><br></span><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">Replace I4/4s's Charging hole, audio source, MIC fault</span><br><div><span style=\"font-style: normal; font-size: 0.875rem; line-height: 1.7857;\">price:500</span><br></div>",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#e25041"
+            },
+            ".card-block P": {
+              "text-align": "center"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>Hardware service</p><p><br></p><p>1. Hardware component installation: 200 / pieces</p><p><br></p><p>2. Driver installation: 200 / one computer</p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>Software services</p><p>1. General software installation: 200 / one computer</p><p><br></p><p>2. Operating system installation: 800 / one computer</p><p><br></p><p>3. System re-irrigation combination: 1000 / one computer</p><p><br></p><p>4. System backup restore: 500 / one computer</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-16",
+          "_params": {
+            "count": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "file:///C:/Users/Administrator/AppData/Local/Mobirise.com/Mobirise/projectData/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "Computer repair service",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-17",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
